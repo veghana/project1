@@ -8,7 +8,6 @@ import os
 import matplotlib.pyplot as plt
 import logging
 
-# Suppress TensorFlow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 logging.getLogger('tensorflow').setLevel(logging.ERROR)
 def process_image(image_path):
